@@ -1,0 +1,15 @@
+server:
+  port: 8300
+
+spring:
+  application:
+    name: config-server # server package name
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/YifengGuo/config-repo
+#          search-paths: /project1
+          username: gyf940517@gmail.com
+          password:
+          label: master
